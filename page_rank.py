@@ -100,3 +100,4 @@ if __name__ == '__main__':
     sys.stderr.write(f"Top {args.number} pages:\n")
     print('\n'.join(f'{100 * v:.2f}\t{k}' for k, v in top[:args.number]))
     sys.stderr.write(f"Calculation took {time:.2f} seconds.\n")
+#Done
